@@ -21,3 +21,15 @@ int main(){
 }
 
 //Do not modify source code above this line 
+void inputMatrix(double a[][N]){
+	for(int i = 0; i < N; i++){
+		for(int j = 0; j < N; j++){
+			cout << "Row " << i+1 << ": ";
+			cin >> a[i][j];
+		}
+	}
+}
+
+void findLocalMax(const double a[][N], bool b[][N]){
+	
+}
